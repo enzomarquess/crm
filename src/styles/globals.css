@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.cabeçalho{
+  width: 100vw;
+  height: 150px;
+  position: fixed;
+  top: 0;
+  background: linear-gradient(#000000, #450759);
+  text-align: center;
+  padding: 50px;
+  color:  white;
+  font-size: xx-large;
+  font-family: Arial;
+}
+
+div{
+  color: aqua;
+  text-align: center;
+  margin: top;
+}
+
+.corpo{
+  margin-top: 150px;
+}
+
+.menusafado{
+  float: left;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.envelope{
+  width: 900px;
+  margin: auto;
+}
